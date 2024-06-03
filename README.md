@@ -114,7 +114,7 @@ docker run -p [Your Port]:42069 -e TUBA_PG_URI=[Your URI] tubatracing/tuba-traci
 ```
 Navigte to localhost:[Your Port] to use TUBA
 
-## Microserviced Environment
+## Microservices Environment
 To use Tuba alongside other images with `docker-compose`, you can add the Docker Hub Tuba image to your `docker-compose` file:
 The Tuba image in the below example references a `.env` file that should have the same key value as detailed in the npm package section of these docs:
 
