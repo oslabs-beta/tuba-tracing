@@ -1,0 +1,24 @@
+{
+  "name": "tuba-tracing",
+  "version": "1.2.2",
+  "description": "Trace errors and store error metrics in the cloud.",
+  "main": "tubaMetricRouter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "error",
+    "error-tracing",
+    "errors",
+    "trace",
+    "tracing"
+  ],
+  "author": "@mtv1243, @emi-kh, @Allen726, @rmarkowi1990",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "js-yaml": "^4.1.0",
+    "pg": "^8.11.5",
+    "prom-client": "^15.1.2"
+  }
+}
